@@ -14,10 +14,11 @@
 
 ## Ajustes e melhorias 💻
 
-O projeto está em sua essência finalizado, faltando apenas a correção de alguns bugs. 
+O projeto está em sua essência finalizado, faltando apenas a adição de algumas implementações e correções de alguns bugs. 
 
-- [] Header Produto
-- [] Header Sobre-Nós
+- [ ] Arrumar o header Produto
+- [ ] Arrumar o header Sobre-Nós
+- [ ] Adicionar um ícone para a página
 
 ## Colaboradores 🤝
 
