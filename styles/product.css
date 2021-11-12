@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    margin: 10px;
+}
+h1{
+    padding-top: 10px;
+    padding-left: 25%;
+}
+#dois{
+    margin-top: 50px;
+}
+#botão{
+    background-color: #004078;
+    border: #004078;
+    width: 300px;
+}
+
+#tel {
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: 20px;
+    color: #303030;
+    margin-bottom: 15%;
+    float: left;
+    width: 300px;
+    top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#cep {
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: 20px;
+    color: #303030;
+    width: 250px;
+    float: left;
+    padding-left: 20px;
+}
+#nuvem {
+    height: 80px;
+    width: auto;
+}
+footer {
+    background-color: #a7e0f8;
+    margin-top: 20%;
+    position: relative;
+    top: 100%;
+    padding-top: 20px;
+}
+#futi {
+    width: 70%;
+    float: right;
+}
+#home{
+    width: 70px;
+    height: 50px;
+}
+#sobrenos{
+    color: #303030;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+header{
+    background-color: #a7e0f8;
+}
+#logo{
+    width: 150px;
+    height: 70px;
+}
+#produtos{
+    color: #303030;
+    font-style: bold;
+    padding-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#home{
+    width: 70px;
+    height: 50px;
+    padding-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#botao{
+    color: #303030;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+}
+div nav form{
+    padding-top: 15px;
+}
+p {
+    margin-left: 12%;
+}

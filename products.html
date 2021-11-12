@@ -5,40 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Produtos</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="produtos.css">
+    <link rel="stylesheet" href="./styles/products.css">
 </head>
 
 <body>
 <header>
 
-
   <div class="container">
     <div class="row">
-        
-      <div class="col-lg-3">
-        <img id="logo" src="https://cdn.discordapp.com/attachments/819736669623943180/898554594056110120/logo-juliotech.png">
+
+      <div class="col-lg-3 col-6">
+        <img id="logo" src="https://cdn.discordapp.com/attachments/819736669623943180/898554594056110120/logo-juliotech.png" alt="">
       </div>
-        
-      <div id="inteiro" class="col-lg-3">
-            <div class="pesquisa">
-              <input type="search" id="form1" class="barra" />
-              <label class="botao" for="form1">Pesquisar</label>
-            </div>
-            </button>
+
+      <div class="col-lg-5 col-6">
+        <nav>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button id="botao" type="submit">Pesquisar</button>
+          </form>
+        </nav>
       </div>
-          
-      <div id="login" class="col-lg-2">
-            <a id="produtos" href="../Produtos/produtos.html" class="transparente" role="button" aria-pressed="true">Produtos</a>
+
+      <div class="col-lg-2 col-6">
+        <a id="produtos" href="./products.html">Produtos</a>
       </div>
-          
-      <div class="col-lg-2">
-          <img id="sacola" src="https://cdn.discordapp.com/attachments/819736669623943180/898588827332005969/unknown.png">
-      </div>
-        
-      <div class="col-lg-2">
-          <a href="../home-Otavio/index.html" class="transparente" role="button" aria-pressed="true"><img id="home" src="https://cdn.discordapp.com/attachments/819736669623943180/901080980759142430/25694.png" alt="home"></a>
+
+      <div class="col-lg-2 col-6">
+        <a href="index.html"><img id="home" src="https://cdn.discordapp.com/attachments/819736669623943180/901080980759142430/25694.png" alt=""></a>
       </div>
 
     </div>
@@ -52,8 +48,8 @@
     
     <div class="container">
         <div class="row">
-            <div class="col-xl-3 col-sm-5"> 
-                <aside> 
+            <div class="col-xl-3 col-12"> 
+                <aside class="col-lg-10 col-12"> 
                 <h2>Filtros:</h2>
                 <br>
                 <h3>Preços:</h3>
@@ -82,9 +78,10 @@
                     </label>
                   </div>
             <br>
+          
             <h3>Cor:</h3>
               
-                 <div class="form-check">
+                  <div class="form-check">
                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
                    <label class="form-check-label" for="defaultCheck2">
                     Rosa
@@ -109,6 +106,7 @@
                     </label>
                  </div>
             <br>
+            
             <h3>Frete:</h3>
                  <div class="form-check">
                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
@@ -119,7 +117,7 @@
             
             </aside> 
         </div>
-            <div class="col-xl-9 col-sm-7"> 
+            <div class="col-xl-9 col-12"> 
                 <div class="row">
                     <div class="col-sm">
                       <div class="card" style="width: 14rem;">
@@ -127,7 +125,7 @@
                           <div class="card-body">
                             <h5 class="card-title">Mouse</h5>
                             <p class="card-text">Valor: R$180,00</p>
-                            <a href="../Produto/mouse.html" class="btn btn-primary">Visitar</a>
+                            <a href="./product.html" class="btn btn-primary">Visitar</a>
                           </div>
                         </div>
                     </div>
@@ -138,7 +136,7 @@
                           <div class="card-body">
                             <h5 class="card-title">Mesa</h5>
                             <p class="card-text">Valor: R$100,00</p>
-                            <a href="../Produto/mesa.html" class="btn btn-primary">Visitar</a>
+                            <a href="./product.html" class="btn btn-primary">Visitar</a>
                           </div>
                         </div>
                     </div>
@@ -148,7 +146,7 @@
                           <div class="card-body">
                             <h5 class="card-title">Mesa Vermelha</h5>
                             <p class="card-text">Valor: R$100,00</p>
-                            <a href="../Produto/mesavrm.html" class="btn btn-primary">Visitar</a>
+                            <a href="./product.html" class="btn btn-primary">Visitar</a>
                           </div>
                         </div>
                     </div>
@@ -157,7 +155,7 @@
                       <div class="card-body">
                         <h5 class="card-title">Fone</h5>
                         <p class="card-text">Valor: R$170,00</p>
-                        <a href="../Produto/fone.html" class="btn btn-primary">Visitar</a>
+                        <a href="./product.html" class="btn btn-primary">Visitar</a>
                       </div>
                     </div>
                     <br>
@@ -166,7 +164,7 @@
                       <div class="card-body">
                         <h5 class="card-title">Computer</h5>
                         <p class="card-text">Valor: R$250,00</p>
-                        <a href="../Produto/computador.html" class="btn btn-primary">Visitar</a>
+                        <a href="./product.html" class="btn btn-primary">Visitar</a>
                       </div>
                     </div>
                    </div>
@@ -181,25 +179,25 @@
   <div class="container">
     <div class="row">
 
-    <div class="col col-lg-3">  
+    <div class="col-lg-3 col-6">  
       <img id="nuvem" src="https://cdn.discordapp.com/attachments/819736669623943180/898554670899949608/logo-juliotech_nuvem.png">
     </div>  
       
     
-    <div class="col col-lg-3">  
+    <div class="col-lg-3 col-6">  
             <div>
-              <a id="sobrenos" href="../Sobre no¦üs/sobrenos.html" class="transparente" role="button" aria-pressed="true">Sobre nós</a>
+              <a id="sobrenos" href="./about-us.html" class="transparente" role="button" aria-pressed="true">Sobre nós</a>
             </div>
     </div>        
             
-    <div class="col col-lg-3">
+    <div class="col-lg-3 col-6">
             <h3 id="tel">
                 (51) 0800 - Júlio Tech
                 Whatsapp 
             </h3>
     </div>
             
-    <div class="col col-lg-3">
+    <div class="col-lg-3 col-6">
             <h3 id="cep">
                 CEP da loja
                 Júlio@email.com
@@ -209,6 +207,8 @@
   
 
     </div>
+
+    <br>
   </div>
     
 </footer>

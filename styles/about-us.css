@@ -11,15 +11,17 @@ main{
 
 main h1{
     font-size: 47px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 main h2{
-    padding-left: 700px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 47px;
 }
 
 main h3{
     font-size: 47px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 table td{
@@ -31,19 +33,7 @@ p{
     text-align: justify;
 }
 
-#imagem{
-    width: 280px;
-    height: 280px;
-    padding-bottom: 10px;    
-}
 
-#imagem2{
-    width: 350px;
-    height: 213px;
-    float: right;
-    padding-left: 17px;
-    
-}
 
 #logo {
     height: 60px;
@@ -60,7 +50,7 @@ h2 {
     font-style: bold;
     font-size: 25px;
     color: #303030;
-    float: left;
+    float: right;
 }
 #tel {
     text-align: left;
@@ -132,9 +122,6 @@ h2 {
 }
 h1 {
     font-size: 30px;
-    margin-bottom: 5px;
-    width: 10%;
-    padding-left: 12%;
     height: 60px;
 }
 header {
@@ -159,7 +146,7 @@ header {
 
 footer {
     background-color: #a7e0f8;
-    margin-top: 100%;
+    margin-top: 20%;
     position: relative;
     top: 100%;
     padding-top: 20px;
@@ -169,7 +156,7 @@ footer {
     float: right;
 }
 #home{
-    width: 70px;
+    width: 90px;
     height: 50px;
 }
 #sobrenos{
@@ -177,4 +164,7 @@ footer {
     font-size: large;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: bold;
+}
+#footer{
+    margin-left: 12%;
 }
