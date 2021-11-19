@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*#carouselExampleControls{
+    margin-top: 2rem;
+}*/
+
+/* Produtos */
+
+.card{
+    margin-top: 1rem;
+    padding-top: 1rem;
+    background-color: #d3d3d3;
+    border: none;
+    height: 30rem;
+}
+
+.card-img-top{
+    width: 15rem;
+    height: 15rem;
+}
+
+.card-title{
+    margin-top: 1rem;
+}
+
+.btn btn-primary{
+    margin-top: 1rem;
+}
+
+/* footer*/
+
+#tel {
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: 20px;
+    color: #303030;
+    margin-bottom: 15%;
+    float: left;
+    width: 300px;
+    top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#cep {
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: 20px;
+    color: #303030;
+    width: 250px;
+    float: left;
+    padding-left: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#nuvem {
+    height: 80px;
+    width: auto;
+}
+footer {
+    background-color: #a7e0f8;
+    margin-top: 20%;
+    position: relative;
+    top: 100%;
+    padding-top: 20px;
+}
+#futi {
+    width: 70%;
+    float: right;
+}
+#home{
+    width: 70px;
+    height: 50px;
+}
+#sobrenos{
+    color: #303030;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+header{
+    background-color: #a7e0f8;
+}
+#logo{
+    width: 150px;
+    height: 70px;
+}
+#produtos{
+    color: #303030;
+    font-style: bold;
+    padding-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#home{
+    width: 70px;
+    height: 50px;
+    padding-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#botao{
+    color: #303030;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+}
+div nav form{
+    padding-top: 15px;
+}
+p {
+    margin-left: 12%;
+}
