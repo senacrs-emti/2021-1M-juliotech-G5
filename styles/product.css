@@ -65,11 +65,15 @@ footer {
     font-size: large;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
 header{
     background-color: #a7e0f8;
+    padding-top: 1ch;
 }
 #logo{
     width: 150px;
@@ -105,3 +109,4 @@ div nav form{
 p {
     margin-left: 12%;
 }
+
