@@ -1,170 +1,145 @@
-body{
-    background-color: rgb(255, 255, 255);
+/* HEADER*/
+header {
+  background-color: #a7e0f8;
 }
-
-main{
-    padding-left: 155px;
-    padding-right: 155px;
-    padding-top: 77px;
-    margin: auto;
+div nav form {
+  padding-top: 15px;
 }
-
-main h1{
-    font-size: 47px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-main h2{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 47px;
-}
-
-main h3{
-    font-size: 47px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-table td{
-    text-align: justify;
-    padding-left: 40px;
-}
-
-p{
-    text-align: justify;
-}
-
-
 
 #logo {
-    height: 60px;
-    width: auto;
-    float: left;
-    position: absolute;
-    left: 0;
-    top: 0;
+  width: 150px;
+  height: 70px;
+}
+#botao {
+  color: #303030;
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+}
+#produtos {
+  color: #303030;
+  font-style: bold;
+  padding-top: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#home {
+  width: 70px;
+  height: 50px;
+  padding-top: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* HEADER;*/
+
+/* BODY*/
+main {
+  padding-left: 9.688rem;
+  padding-right: 9.688rem;
+  padding-top: 1.563rem;
+  margin: auto;
+}
+
+main h1 {
+  font-size: 2.938rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+main h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2.938rem;
+}
+
+main h3 {
+  font-size: 2.938rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+table td {
+  text-align: justify;
+  padding-left: 2.5rem;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
 }
 
 h2 {
-    text-align: right;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: bold;
-    font-size: 25px;
-    color: #303030;
-    float: right;
-}
-#tel {
-    text-align: left;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: bold;
-    font-size: 25px;
-    color: #303030;
-    margin-bottom: 15%;
-    float: left;
-    width: 300px;
-    top: 0;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-#cep {
-    text-align: left;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: bold;
-    font-size: 25px;
-    color: #303030;
-    width: 250px;
-    float: left;
-    padding-left: 20px;
-}
-#nuvem {
-    height: 80px;
-    width: auto;
-}
-.pesquisa {
-    padding-left: 30%;
-    padding-top: 16px;
-    color: whitesmoke;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: bold;
-    position: relative;
-    width: 100%;
-}
-.botao {
-    background-color: #004078;
-    position: relative;
-    padding: 5px;
-    border-radius: 3px;
-    border-color: #004078;
-}
-.barra {
-    width: 60%;
-    height: 30px;
-    padding-top: 4px;
-}
-#login {
-    height: 60px;
-    width: 55%;
-    padding-left: 60px;
-    margin-top: 15px;
-}
-#produtos{
-    color: #303030;
-    font-size: large;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: bold;
-}
-.transparente{
-    background-color: transparent;
-}
-#conta {
-    height: 60px;
-    width: auto;
-    margin-right: 3px;
-}
-h1 {
-    font-size: 30px;
-    height: 60px;
-}
-header {
-    background-color: #a7e0f8;
-    height: 60px;
-    position: absolute;
-    border: 0;
-    width: 100%;
-    padding: auto;
-}
-#inteiro {
-    width: 50%;
-}
-#sacola {
-    height: 60px;
-    width: auto;
-}
-#casa {
-    height: 60px;
-    width: auto;
+  text-align: right;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: bold;
+  font-size: 1.563rem;
+  color: #303030;
+  float: right;
 }
 
+h1 {
+  font-size: 1.875rem;
+  height: 3.75rem;
+}
+/* BODY;*/
+
+/* FOOTER*/
 footer {
-    background-color: #a7e0f8;
-    margin-top: 20%;
-    position: relative;
-    top: 100%;
-    padding-top: 20px;
+  background-color: #a7e0f8;
+  margin-top: 10%;
+  position: relative;
+  top: 100%;
+  padding-top: 20px;
 }
-#futi {
-    width: 70%;
-    float: right;
+
+#nuvem {
+  height: 80px;
+  width: auto;
 }
-#home{
-    width: 90px;
-    height: 50px;
+#sobrenos {
+  color: #303030;
+  font-size: large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-#sobrenos{
-    color: #303030;
-    font-size: large;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: bold;
+#tel {
+  text-align: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: bold;
+  font-size: 20px;
+  color: #303030;
+  margin-bottom: 15%;
+  float: left;
+  width: 300px;
+  top: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-#footer{
-    margin-left: 12%;
+#cep {
+  text-align: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: bold;
+  font-size: 20px;
+  color: #303030;
+  width: 250px;
+  float: left;
+  padding-left: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* FOOTER;*/
+
+.no-select {
+  text-decoration: none;
 }

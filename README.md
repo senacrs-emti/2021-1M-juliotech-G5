@@ -1,12 +1,11 @@
 # JúlioTech
 
-<img src="https://cdn.discordapp.com/attachments/855995062093479949/908747078237302804/home-JulioTech.png" style="width: 300px">
-
-<img src="https://cdn.discordapp.com/attachments/855995062093479949/908749088818860072/products-JulioTech.png" style="width: 300px">
-
-<img src="https://cdn.discordapp.com/attachments/855995062093479949/908749228258512976/product-JulioTech.png" style="width: 300px">
-
-<img src="https://cdn.discordapp.com/attachments/855995062093479949/908749458022490222/aboutUs-JulioTech.png" style="width: 300px">
+<div style="width: 300px;">
+<img src="https://cdn.discordapp.com/attachments/855995062093479949/908747078237302804/home-JulioTech.png" style="">
+<img src="https://cdn.discordapp.com/attachments/855995062093479949/908749088818860072/products-JulioTech.png">
+<img src="https://cdn.discordapp.com/attachments/855995062093479949/908749228258512976/product-JulioTech.png">
+<img src="https://cdn.discordapp.com/attachments/855995062093479949/908749458022490222/aboutUs-JulioTech.png">
+</div>
 
 <br>
 
