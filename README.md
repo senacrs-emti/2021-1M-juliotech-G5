@@ -1,10 +1,10 @@
 # JúlioTech
 
-<div style="width: 300px;">
-<img src="https://cdn.discordapp.com/attachments/855995062093479949/908747078237302804/home-JulioTech.png" style="">
-<img src="https://cdn.discordapp.com/attachments/855995062093479949/908749088818860072/products-JulioTech.png">
-<img src="https://cdn.discordapp.com/attachments/855995062093479949/908749228258512976/product-JulioTech.png">
-<img src="https://cdn.discordapp.com/attachments/855995062093479949/908749458022490222/aboutUs-JulioTech.png">
+<div style="display: grid; grid-template-columns: 300px 300px; grid-template-rows: 300px 300px;">
+  <img src="https://cdn.discordapp.com/attachments/855995062093479949/918934029254946836/C__Users_Aluno_Desktop_2021-1M-juliotech-G5_index.html.png" style="width: 250px; height: 300px;">
+  <img src="https://cdn.discordapp.com/attachments/855995062093479949/918934280065941614/C__Users_Aluno_Desktop_2021-1M-juliotech-G5_products.html.png" style="width: 250px; height: 300px;">
+  <img src="https://cdn.discordapp.com/attachments/855995062093479949/918939701807824926/C__Users_Aluno_Desktop_2021-1M-juliotech-G5_mouse-product.html.png" style="width: 250px; height: 300px; margin-top: 10px;">
+  <img src="https://cdn.discordapp.com/attachments/855995062093479949/918940336259235860/unknown.png" style="width: 250px; height: 300px; margin-top:10px;">
 </div>
 
 <br>
@@ -15,9 +15,9 @@
 
 O projeto está em sua essência finalizado, faltando apenas a adição de algumas implementações e correções de alguns bugs. 
 
-- [ ] Arrumar o header Produto
-- [ ] Arrumar o header Sobre-Nós
-- [ ] Adicionar um ícone para a página
+- [X] Arrumar o header Produto
+- [X] Arrumar o header Sobre-Nós
+- [X] Adicionar um ícone para a página
 
 ## Colaboradores 🤝
 
